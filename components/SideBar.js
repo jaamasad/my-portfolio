@@ -64,16 +64,14 @@ const SideBar = () => {
               <div className="trm-label">City:</div>
               <div className="trm-label trm-label-light">Islamabad</div>
             </li>
+            <li>
+              <div className="trm-label">Ph#</div>
+              <div className="trm-label trm-label-light">+923000251531</div>
+            </li>
           </ul>
           {/* info end */}
           <div className="trm-divider trm-mb-40 trm-mt-40" />
-          {/* action button */}
-          <div className="text-center">
-            <a data-fancybox="" href="#trm-order" className="trm-btn">
-              Contact me <i className="far fa-envelope" />
-            </a>
-          </div>
-          {/* action button end */}
+
         </div>
       </div>
       {/* main card end */}

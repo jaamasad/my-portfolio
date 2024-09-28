@@ -17,24 +17,13 @@ const Index = () => {
   }, []);
   return (
     <TrueManLayout>
-      {/* stats */}
       <Counter />
-      {/* stats end */}
-      {/* text */}
       <Story />
-      {/* text end */}
-      {/* video resume */}
       <VideoResume />
-      {/* video resume end */}
-      {/* services */}
       <Services />
-      {/* services end */}
-      {/* price plans */}
-      <Price />
-      {/* price plans end */}
-      {/* testimonials */}
+      {/* <Price /> */}
       <Testimonials />
-      <Publications />
+      {/* <Publications /> */}
     </TrueManLayout>
   );
 };

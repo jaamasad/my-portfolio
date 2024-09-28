@@ -25,7 +25,7 @@ const TopBar = ({ onePage }) => {
           <Link legacyBehavior href="/">
             <a className="trm-logo-frame trm-anima-link">
               <div className="trm-logo-text">
-                Jaam<span>asad</span>
+              <img src="/img/logo-black.png" />
               </div>
             </a>
           </Link>
@@ -43,55 +43,11 @@ const TopBar = ({ onePage }) => {
                     <Link legacyBehavior href="/">
                       Home
                     </Link>
-                    <ul>
-                      <li>
-                        <Link legacyBehavior href="/">
-                          Image
-                        </Link>
-                      </li>
-                      <li>
-                        <Link legacyBehavior href="home-video">
-                          Video
-                        </Link>
-                      </li>
-                      <li>
-                        <Link legacyBehavior href="home-slideshow">
-                          Slideshow
-                        </Link>
-                      </li>
-                    </ul>
                   </li>
                   <li className="menu-item-has-children">
                     <Link legacyBehavior href="portfolio">
                       Portfolio
                     </Link>
-                    <ul>
-                      <li>
-                        <Link legacyBehavior href="portfolio">
-                          Portfolio 1
-                        </Link>
-                      </li>
-                      <li>
-                        <Link legacyBehavior href="portfolio-2">
-                          Portfolio 2
-                        </Link>
-                      </li>
-                      <li>
-                        <Link legacyBehavior href="portfolio-3">
-                          Portfolio 3
-                        </Link>
-                      </li>
-                      <li>
-                        <Link legacyBehavior href="portfolio-4">
-                          Portfolio 4
-                        </Link>
-                      </li>
-                      <li>
-                        <Link legacyBehavior href="portfolio-5">
-                          Portfolio 5
-                        </Link>
-                      </li>
-                    </ul>
                   </li>
                   <li>
                     <Link legacyBehavior href="resume">
@@ -107,23 +63,6 @@ const TopBar = ({ onePage }) => {
                     <Link legacyBehavior href="blog">
                       Blog
                     </Link>
-                    <ul>
-                      <li>
-                        <Link legacyBehavior href="blog">
-                          Blog 1
-                        </Link>
-                      </li>
-                      <li>
-                        <Link legacyBehavior href="blog-2">
-                          Blog 2
-                        </Link>
-                      </li>
-                      <li>
-                        <Link legacyBehavior href="publication">
-                          Publication
-                        </Link>
-                      </li>
-                    </ul>
                   </li>
                 </ul>
               )}
